@@ -1,0 +1,37 @@
+#clc-lead{
+	border:1px solid red;
+	border-radius: 4px;
+	padding:100px;
+}
+
+#clc-lead .field-group{
+	border-bottom: 1px solid grey;
+	margin-bottom: 50px;
+	padding-bottom: 12px;
+}
+
+#clc-lead .field-group:last-of-type{
+	border-bottom: none;
+}
+
+
+#clc-lead div.field-group label{
+	display: inline-block;
+	width: 100px;
+}
+
+#clc-lead div.field-group input{
+	width: 300px;
+}
+
+div.success{
+	background: #31e527;
+    color: #1b8415;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 6px;
+    width: 72%;
+    
+    margin: 4px auto;
+    text-align: center;
+}

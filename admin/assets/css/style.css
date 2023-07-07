@@ -1,0 +1,40 @@
+.leads-container{
+	width: 100%;
+	margin:0 auto;
+}
+
+.leads-wrapper{
+	width: 60%;
+	padding:10px;
+	border:1px solid grey;
+	background: white;
+}
+
+
+#leads tr:nth-child(odd){
+	background: grey;
+}
+
+#leads tr:nth-child(1){
+	background:transparent;
+	color:black;
+	font-size: 18px;
+	font-weight: 700;
+}
+#leads tr:nth-child(1) th{
+
+	padding:10px 30px;
+}
+
+#leads tr td{
+	text-align: center;
+}
+
+#clc-lead{
+	border:1px solid red;
+	border-radius: 4px;
+}
+
+#clc-lead .field-group{
+	border-bottom: 1px solid grey;
+}
